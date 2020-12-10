@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://fontawesome.com/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" >
+    <title></title>
+    <style >
+        body{
+            background-color: white
+        }
+        .headerbox{
+            width:300px;
+            height: 200px;
+            border: 1px solid #28c7fa;
+            
+            background-color: #28c7fa;
+            border-radius: 30px 30px 0px 0px;
+            
+        }
+        h2{
+           color: white;
+           display: inline;
+           position: absolute;
+           top: 20px;
+           left: 40px;
+
+        }
+        input{
+           height: 20px;
+           border: none;
+           border-left:4px solid white;
+           background:none;
+           position: absolute;
+           top: 90px;
+           left: 40px;
+        }
+        i{
+           position: absolute;
+           top: 50px;
+           left: 230px;
+           color: white;
+        }
+        .listbox{
+            width: 300px;
+            background-color: white;
+            border: 1px solid grey;
+            border-radius: 20px 20px 20px 20px;
+            position: absolute;
+            top: 150px;
+
+        }
+        ul{
+            list-style: none;
+            color: #28c7fa;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        li{
+           padding: 20px  10px 20px 10px;
+           transition: 0.5s
+        }
+        li:hover{
+            background-color: #dee1ec;
+            border-radius: 10px 10px 10px 10px;
+
+        }
+        input::placeholder{
+            color: white;
+        }
+        .inputClass:focus{
+            outline: none;
+        }
+    </style>
+    <body>
+        <div class="wholebox">
+            <div class="headerbox">
+                <h2>To Do List</h2><br> 
+                <input type="text" name="" class="inputClass"placeholder="Say Something...">
+                <i class="fas fa-plus-circle fa-4x"></i>
+            </div>
+            <div class="listbox">
+                <ul>
+                    <li>Call to Poe</li>
+                    <li>Call to Poe</li>
+                    <li>Call to Poe</li>
+                    <li>Call to Poe</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
