@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="container">
+    <ul class="list" id="list">
+
+    </ul>
+    <h1 class="heading animate__animated animate__slideInDown">PIANO LITE</h3>
+        <div class="inbox">
+        <input type="text" class="key-input animate__animated animate__slideInRight" id="key-input">
+        <button class="save-btn animate__animated animate__slideInUp" id="save_btn">Save<i class="fas fa-save"></i></button>
+        <button class="back-btn animate__animated animate__slideInUp" id="back_btn"><i class="fas fa-backspace"></i></button>
+        <button class="delete-btn animate__animated animate__slideInUp" id="delete_btn"><i class="fas fa-trash-alt"></i></button>
+    </div>
+    <div class="piano-box animate__animated animate__slideInLeft">
+            <button class="btn" onclick="run('C4')" id="key_btn">
+                A
+            </button>
+            <button class="btn" onclick="run('D4')" id="key_btn" >
+                S
+            </button>
+            <button class="btn" onclick="run('E4')" id="key_btn">
+                D
+            </button>
+            <button class="btn" onclick="run('F4')" id="key_btn">
+                F
+            </button>
+            <button class="btn" onclick="run('G4')" id="key_btn">
+                J
+            </button>
+            <button class="btn" onclick="run('A4')" id="key_btn">
+                K
+            </button>
+            <button class="btn" onclick="run('B4')" id="key_btn">
+                L
+            </button>
+            <button class="btn" onclick="run('C5')" id="key_btn">
+                ;
+            </button>
+        
+        <button class="tone tone-1" onclick="run('A4')" id="key_btn">
+            W
+        </button>
+        <button class="tone tone-2" onclick="run('F4')" id="key_btn">
+            E
+        </button>
+        <button class="tone tone-3" onclick="run('E4')" id="key_btn">
+            Y
+        </button>
+        <button class="tone tone-4" onclick="run('D4')" id="key_btn">
+            O
+        </button>
+        <button class="tone tone-5" onclick="run('C4')" id="key_btn">
+            P
+        </button>
+    </div>
+</div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
